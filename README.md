@@ -22,5 +22,6 @@ It is a human vs machine game so there will be alternate turns. The game starts 
 5. When the robot's turn ended, press the touch sensor to begin your next turn.
 6. The cycle continues until the game ends.
 
-
+#Troubleshooting
+Sometimes the motors do not run. For some reasons, just run ev3_motor.py once and then run the file you wanted. It should work after that.
 
