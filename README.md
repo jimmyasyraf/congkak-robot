@@ -1,5 +1,7 @@
 # Congkak Robot
-This is the sourcecode for my congkak robot, a robot that plays congkak - a south east asian traditional game. 
+Congkak is a South-East Asian board game. There are two sets of seven holes plus an additional big hole at the end of each side called house. Players start by scooping balls from one of the hole from their side and distributing one ball at each consecutive hole except for the opponent’s house hole, in a clockwise manner. Players with the most number of balls in their house hole wins. 
+
+This is the sourcecode for my congkak robot, a robot that plays congkak.
 The robot is based of Lego Mindstorms EV3 booted in an EV3dev distribution of linux and coded in Python.
 ![Congkak robot](https://github.com/jimmyasyraf/congkak-robot/blob/master/CqNqS9HUAAAI-Qq.jpg "Congkak robot")
 
@@ -11,7 +13,8 @@ Graphical
 
 Command line
 1. Press CTRL-ALT-F6 to open the terminal
-2. python robot_congkak.py
+2. python congkak_robot.py
+3. chmod u+x congkak_robot.py to turn it into an executable file
 
 # The game
 It is a human vs machine game so there will be alternate turns. The game starts with the human's turn.
