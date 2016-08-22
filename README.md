@@ -6,15 +6,21 @@ The robot is based of Lego Mindstorms EV3 booted in an EV3dev distribution of li
 ![Congkak robot](https://github.com/jimmyasyraf/congkak-robot/blob/master/CqNqS9HUAAAI-Qq.jpg "Congkak robot")
 
 # How to operate
-Graphical
+### Graphical
+
 1. Boot up the EV3 brick.
 2. Navigate to File Browser
 3. Click robot_congkak.py
 
-Command line
+### Command line
+
 1. Press CTRL-ALT-F6 to open the terminal
-2. python congkak_robot.py
-3. chmod u+x congkak_robot.py to turn it into an executable file
+2. To run the python file 
+
+  ``` python congkak_robot.py ```
+3. To turn it into an executable file
+
+  ``` chmod u+x congkak_robot.py ```
 
 # The game
 It is a human vs machine game so there will be alternate turns. The game starts with the human's turn.
@@ -28,3 +34,5 @@ It is a human vs machine game so there will be alternate turns. The game starts 
 #Troubleshooting
 Sometimes the motors do not run. For some reasons, just run ev3_motor.py once and then run the file you wanted. It should work after that.
 
+#Reference
+For more information, visit eve3dev.org [ev3dev.org](www.ev3dev.org)
