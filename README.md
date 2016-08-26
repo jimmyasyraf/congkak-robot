@@ -11,6 +11,7 @@ The robot is based of Lego Mindstorms EV3 booted in an EV3dev distribution of li
 1. Boot up the EV3 brick.
 2. Navigate to File Browser
 3. Click robot_congkak.py
+4. If there are issues, insert a keyboard, open the command line and press CTRL-C to quit the program
 
 ### Command line
 
@@ -22,6 +23,9 @@ The robot is based of Lego Mindstorms EV3 booted in an EV3dev distribution of li
 3. To turn it into an executable file
 
   ``` chmod u+x congkak_robot.py ```
+
+4. Press CTRL-ALT-F1 to exit terminal 
+
 
 # The game
 It is a human vs machine game so there will be alternate turns. The game starts with the human's turn.
