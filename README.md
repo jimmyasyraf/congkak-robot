@@ -22,6 +22,12 @@ The robot is based of Lego Mindstorms EV3 booted in an EV3dev distribution of li
   ``` python congkak_robot.py ```
 3. To turn it into an executable file
 
+  Add this line on top of your code
+
+  ```#! /usr/bin/env python ```
+
+  Then, in the command line, execute
+
   ``` chmod u+x congkak_robot.py ```
 
 4. Press CTRL-ALT-F1 to exit terminal 
